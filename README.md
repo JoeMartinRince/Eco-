@@ -1,7 +1,7 @@
 # 🌿 Eco Travel Mate – AI-Powered Sustainable Travel Companion
 
 > 🚀 Built in 48 hours for **Green Spark Hackathon 2025**  
-> 🔗 [Live Preview](https://preview--eco-travel-mate.lovable.app)
+> 🔗 [Live Preview](https://joemartinrince.github.io/Eco-/)
 
 [![Hackathon](https://img.shields.io/badge/Hackathon-Green%20Spark%202025-orange)](https://github.com/Christwin-Soy-Jose/eco-travel-mate)
 [![Platform](https://img.shields.io/badge/Platform-Flutter%20%2B%20Firebase-blue)](https://flutter.dev)

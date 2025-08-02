@@ -1,7 +1,8 @@
-# 🌿 Eco Travel Mate – Your AI-Powered Sustainable Living Companion
+# 🌿 Eco Travel Mate – AI‑Powered Sustainable Travel Companion  
+*Make travel greener, smarter, and healthier—every trip counts.*
 
-> 🚀 Built for **Green Spark Hackathon 2025**
-> 🔗 [Live Preview](https://joemartinrince.github.io/Eco-/) (Please update if the live preview changes with new features)
+🚀 Built in 48 hours during **Green Spark Hackathon 2025**  
+🔗 [Live Preview](https://joemartinrince.github.io/Eco-/)
 
 [![Hackathon](https://img.shields.io/badge/Hackathon-Green%20Spark%202025-orange)](https://github.com/Christwin-Soy-Jose/eco-travel-mate)
 [![Platform](https://img.shields.io/badge/Platform-Flutter%20%2B%20Firebase-blue)](https://flutter.dev)
@@ -9,132 +10,96 @@
 
 ---
 
-## 🎯 Problem Statement
+## 🎯 Problem Statement  
+Short-distance car trips contribute significantly to:  
+- 🌍 Urban carbon emissions  
+- 🧍 Sedentary-lifestyle health issues  
 
-Unmindful daily habits, particularly short-distance trips and conventional travel choices, are significant contributors to:
-- 🌍 **Increased Carbon Emissions:** Accelerating climate change and environmental degradation.
-- 🚶 **Lifestyle-Related Health Issues:** Due to reduced physical activity.
-
-A widespread lack of **awareness**, combined with the absence of **real-time feedback** and **actionable insights**, prevents many individuals from adopting more sustainable and healthier lifestyle choices.
+Most people lack **real-time feedback** and motivating **nudges** to adopt greener travel habits.
 
 ---
 
-## 🌱 Solution: Eco Travel Mate
-
-**Eco Travel Mate** is an innovative, AI-powered mobile application designed to empower individuals to make greener choices in their daily lives and travel. By providing intelligent insights and motivation, the app aims to foster sustainable habits.
-
-It achieves this by:
--   **Automatically detecting travel modes** and calculating carbon footprint.
--   **Suggesting eco-friendly alternatives** based on personalized data.
--   **Motivating users** through gamification and community engagement.
--   **Offering tools** for manual carbon footprint calculation, real-time air quality monitoring, and an AI-driven travel assistant for comprehensive eco-insights.
+## 🌱 What It Does  
+**Eco Travel Mate** turns everyday travel into an eco‑friendly journey by:
+- Detecting your travel mode (walk, bike, car, etc.)
+- Calculating your CO₂ footprint
+- Offering greener alternatives
+- Rewarding you with GreenPoints and challenges
 
 ---
 
 ## 🧩 Core Features
 
-### 🚶 Smart Travel Detection
-Automatically identifies your mode of transport:
--   Walking
--   Cycling
--   Car
--   Public Transport
+### 🚶 Smart Travel Detection  
+Detects walking, cycling, car rides, and public transport using GPS and activity recognition — no manual input.
 
-Powered by sophisticated GPS and motion activity data, ensuring seamless and accurate tracking without manual input.
+### ♻️ Real-Time CO₂ Emissions Calculator  
+Get your carbon impact instantly:  
+> Car (2 km) → ~0.5 kg CO₂  
+> Walk (2 km) → 0 kg CO₂, ~75 kcal burned
 
----
+### 🌿 Greener Suggestion Engine  
+Suggests eco travel alternatives:  
+> "You could’ve saved 0.5 kg CO₂ and burned 75 kcal by walking."
 
-### ♻️ Real-Time & Advanced CO₂ Emissions Calculator
-Calculates your environmental impact for every trip, whether automatically detected or manually entered:
+### 🎮 GreenPoints & Weekly Challenges  
+- Earn **GreenPoints** for every eco action  
+- Take on weekly goals like replacing car trips with walks
 
-> ✅ **Example (Automatic):**
-> Car (2 km) → ~0.5 kg CO₂
-> Walk (2 km) → 0 kg CO₂ and 75 kcal burned!
-
-> ✅ **Example (Manual Input):**
-> Car (23 km) → ~3.91 kg CO₂ ≈ plant 1 tree.
-
----
-
-### 🌿 Greener Suggestion Engine
-Provides personalized, eco-friendly travel alternatives with compelling motivation:
-
-> *"You could’ve saved 0.5 kg CO₂ and burned 75 kcal by walking this 2 km trip. Choose green next time!"*
+### 👨‍👩‍👧‍👦 Family Groups & Leaderboards  
+- Join groups  
+- Compete via **GreenScores**  
+- Build sustainable habits together 💚
 
 ---
 
-### 🧠 AI Travel Assistant
-Your intelligent companion for all eco-travel inquiries. Ask anything about sustainable travel options, eco-friendly destinations, tips for reducing your carbon footprint, and more, powered by cutting-edge AI.
+## 🛠 Tech Stack  
+
+| Module           | Technology Used                                |
+|------------------|-------------------------------------------------|
+| **Frontend**     | Flutter (Dart)                                  |
+| **Backend**      | Firebase (Auth, Firestore, Cloud Functions), Flask |
+| **Location**     | GPS, Geolocator plugin, Google Activity Recognition |
+| **AI Logic**     | Travel-mode classifier, CO₂ footprint calculator |
+| **Mapping**      | Google Maps SDK or Mapbox                       |
+| **Gamification** | Custom point system, weekly challenges, leaderboards |
 
 ---
 
-### 💨 Air Quality Monitor
-Access real-time Air Quality Index (AQI) data for various cities, with a special focus on Indian cities. This feature helps users make informed decisions about outdoor activities and choose healthier routes.
+## 📱 Screenshots
+
+| Feature           | Description                         | Preview                                     |
+|------------------|-------------------------------------|---------------------------------------------|
+| 🏠 Home Screen    | View your GreenScore and eco tips   | ![](Photos/home_screen.png)                 |
+| 📊 Trip Log       | View trip history and CO₂ stats     | ![](Photos/trip_log.png)                    |
+| 💡 Suggestions    | See greener travel alternatives     | ![](Photos/suggestion.png)                  |
+| 🏆 Leaderboard    | Compete with your family/friends    | ![](Photos/leaderboard.png)                 |
 
 ---
 
-### 🎮 GreenPoints & Weekly Challenges
--   Earn **GreenPoints** for every eco-conscious action taken within the app.
--   Participate in **Weekly Challenges** to push your sustainable efforts further:
-    > *"Replace 2 car trips with walks this week and earn bonus GreenPoints!"*
+## 📸 Extended Features – Screenshots
 
----
-
-### 👨‍👩‍👧‍👦 Family Groups & Leaderboards
--   Form or join groups with family and friends to encourage collective action.
--   Compete for the top spot on **GreenScores** leaderboards.
--   Build eco-friendly habits together as a community 💚.
-
----
-
-## 🛠 Tech Stack
-
-| Layer             | Technology                                                |
-|-------------------|-----------------------------------------------------------|
-| **Frontend** | Flutter (Dart)                                            |
-| **Backend** | Firebase (Authentication, Firestore, Cloud Functions), Flask |
-| **Location** | GPS, Geolocator, Google Activity Recognition API          |
-| **AI & Logic** | CO₂ emission calculator, Travel-mode classifier           |
-| **AI Assistant** | (Specify if you used a particular LLM API like Gemini, OpenAI, etc., or custom NLP solution) |
-| **Air Quality Data** | (Specify if you used a particular AQI data provider API or custom data source) |
-| **Mapping** | Google Maps SDK / Mapbox                                  |
-| **Gamification** | Custom points system, challenges, leaderboards            |
-
----
-
-## 📱 Screenshots (Demo)
-
-> All screenshots are located in the `Eco-/Photos/` folder within the repository.
-
-| Feature                      | Description                                        | Preview                                                                                   |
-|------------------------------|----------------------------------------------------|-------------------------------------------------------------------------------------------|
-| 🏠 Home Screen               | GreenScore, trip summary, eco tips                 | ![](assets/screenshots/home_screen.png)                                                   |
-| 📊 Trip Log                  | Detailed trip history and CO₂ impact               | ![](assets/screenshots/trip_log.png)                                                      |
-| 💡 Suggestions               | Smart travel alternatives                          | ![](assets/screenshots/suggestion.png)                                                    |
-| 🏆 Leaderboard               | Compete with friends/family                        | ![](assets/screenshots/leaderboard.png)                                                   |
-| 🤖 AI Travel Assistant       | Intelligent Q&A for eco-travel queries             | ![](Eco-/Photos/WhatsApp%20Image%202025-08-02%20at%208.53.10%20PM%20(2).jpeg)               |
-| 💨 Air Quality Monitor       | Real-time AQI for cities and interactive map       | ![](Eco-/Photos/WhatsApp%20Image%202025-08-02%20at%208.53.10%20PM%20(3).jpeg)               |
-| 📊 Carbon Calculator (Input) | Manual carbon footprint calculation input interface | ![](Eco-/Photos/WhatsApp%20Image%202025-08-02%20at%208.53.11%20PM%20(1).jpeg)               |
-| 📈 Carbon Calculator (Result)| Display of calculated emissions and eco-equivalents | ![](Eco-/Photos/WhatsApp%20Image%202025-08-02%20at%208.54.08%20PM%20(1).jpeg)               |
+| Feature                     | Description                                           | Preview                                     |
+|-----------------------------|-------------------------------------------------------|---------------------------------------------|
+| 🤖 AI Travel Assistant       | Intelligent Q&A for eco-travel queries               | ![](Photos/ai_assistant.jpeg)               |
+| 💨 Air Quality Monitor       | Real-time AQI for cities and interactive map         | ![](Photos/air_quality.jpeg)                |
+| 📊 Carbon Calculator (Input) | Manual carbon footprint input interface              | ![](Photos/carbon_input.jpeg)               |
+| 📈 Carbon Calculator (Result)| Display of calculated emissions and eco-equivalents | ![](Photos/carbon_result.jpeg)              |
 
 ---
 
 ## 🚀 Getting Started Locally
 
-To get Eco Travel Mate up and running on your local machine, follow these steps:
-
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/Christwin-Soy-Jose/eco-travel-mate.git](https://github.com/Christwin-Soy-Jose/eco-travel-mate.git)
-cd eco-travel-mate
+git clone https://github.com/JoeMartinRince/Eco-.git
+cd Eco-
 
-# 2. Install Flutter dependencies
+# 2. Install dependencies
 flutter pub get
 
 # 3. Setup Firebase
-# Ensure you have a Firebase project configured.
-# Add your `google-services.json` (for Android) or `GoogleService-Info.plist` (for iOS)
-# files to their respective platform directories.
+# Add google-services.json (Android) or GoogleService-Info.plist (iOS) to the correct folders
 
-# 4. Run the application
+# 4. Run the app
 flutter run

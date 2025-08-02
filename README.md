@@ -104,18 +104,18 @@ Access real-time Air Quality Index (AQI) data for various cities, with a special
 
 ## 📱 Screenshots (Demo)
 
-> All screenshots are located in the `assets/screenshots/` folder.
+> All screenshots are located in the `Eco-/Photos/` folder within the repository.
 
-| Feature                      | Description                                        | Preview                                                   |
-|------------------------------|----------------------------------------------------|-----------------------------------------------------------|
-| 🏠 Home Screen               | GreenScore, trip summary, eco tips                 | ![](assets/screenshots/home_screen.png)                   |
-| 📊 Trip Log                  | Detailed trip history and CO₂ impact               | ![](assets/screenshots/trip_log.png)                      |
-| 💡 Suggestions               | Smart travel alternatives                          | ![](assets/screenshots/suggestion.png)                    |
-| 🏆 Leaderboard               | Compete with friends/family                        | ![](assets/screenshots/leaderboard.png)                   |
-| 🤖 AI Travel Assistant       | Intelligent Q&A for eco-travel queries             | ![](assets/screenshots/ai_travel_assistant.jpeg)          |
-| 💨 Air Quality Monitor       | Real-time AQI for cities and interactive map       | ![](assets/screenshots/air_quality_indian_cities.jpeg)    |
-| 📊 Carbon Calculator (Input) | Manual carbon footprint calculation input interface | ![](assets/screenshots/carbon_calculator_100km.jpeg)      |
-| 📈 Carbon Calculator (Result)| Display of calculated emissions and eco-equivalents | ![](assets/screenshots/carbon_calculator_23km.jpeg)       |
+| Feature                      | Description                                        | Preview                                                                                   |
+|------------------------------|----------------------------------------------------|-------------------------------------------------------------------------------------------|
+| 🏠 Home Screen               | GreenScore, trip summary, eco tips                 | ![](assets/screenshots/home_screen.png)                                                   |
+| 📊 Trip Log                  | Detailed trip history and CO₂ impact               | ![](assets/screenshots/trip_log.png)                                                      |
+| 💡 Suggestions               | Smart travel alternatives                          | ![](assets/screenshots/suggestion.png)                                                    |
+| 🏆 Leaderboard               | Compete with friends/family                        | ![](assets/screenshots/leaderboard.png)                                                   |
+| 🤖 AI Travel Assistant       | Intelligent Q&A for eco-travel queries             | ![](Eco-/Photos/WhatsApp%20Image%202025-08-02%20at%208.53.10%20PM%20(2).jpeg)               |
+| 💨 Air Quality Monitor       | Real-time AQI for cities and interactive map       | ![](Eco-/Photos/WhatsApp%20Image%202025-08-02%20at%208.53.10%20PM%20(3).jpeg)               |
+| 📊 Carbon Calculator (Input) | Manual carbon footprint calculation input interface | ![](Eco-/Photos/WhatsApp%20Image%202025-08-02%20at%208.53.11%20PM%20(1).jpeg)               |
+| 📈 Carbon Calculator (Result)| Display of calculated emissions and eco-equivalents | ![](Eco-/Photos/WhatsApp%20Image%202025-08-02%20at%208.54.08%20PM%20(1).jpeg)               |
 
 ---
 
